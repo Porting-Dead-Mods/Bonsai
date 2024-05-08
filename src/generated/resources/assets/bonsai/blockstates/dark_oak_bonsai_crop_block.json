@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bonsai:block/bonsai_darkoak0"
+    },
+    "age=1": {
+      "model": "bonsai:block/bonsai_darkoak1"
+    },
+    "age=2": {
+      "model": "bonsai:block/bonsai_darkoak2"
+    },
+    "age=3": {
+      "model": "bonsai:block/bonsai_darkoak3"
+    },
+    "age=4": {
+      "model": "bonsai:block/bonsai_darkoak4"
+    },
+    "age=5": {
+      "model": "bonsai:block/bonsai_darkoak5"
+    },
+    "age=6": {
+      "model": "bonsai:block/bonsai_darkoak6"
+    },
+    "age=7": {
+      "model": "bonsai:block/bonsai_darkoak7"
+    }
+  }
+}

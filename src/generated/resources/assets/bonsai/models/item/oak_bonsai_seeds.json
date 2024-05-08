@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bonsai:item/oak_bonsai_seeds"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bonsai:block/bonsai_jungle0"
+    },
+    "age=1": {
+      "model": "bonsai:block/bonsai_jungle1"
+    },
+    "age=2": {
+      "model": "bonsai:block/bonsai_jungle2"
+    },
+    "age=3": {
+      "model": "bonsai:block/bonsai_jungle3"
+    },
+    "age=4": {
+      "model": "bonsai:block/bonsai_jungle4"
+    },
+    "age=5": {
+      "model": "bonsai:block/bonsai_jungle5"
+    },
+    "age=6": {
+      "model": "bonsai:block/bonsai_jungle6"
+    },
+    "age=7": {
+      "model": "bonsai:block/bonsai_jungle7"
+    }
+  }
+}

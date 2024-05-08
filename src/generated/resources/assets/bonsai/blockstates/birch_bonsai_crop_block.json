@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bonsai:block/bonsai_birch0"
+    },
+    "age=1": {
+      "model": "bonsai:block/bonsai_birch1"
+    },
+    "age=2": {
+      "model": "bonsai:block/bonsai_birch2"
+    },
+    "age=3": {
+      "model": "bonsai:block/bonsai_birch3"
+    },
+    "age=4": {
+      "model": "bonsai:block/bonsai_birch4"
+    },
+    "age=5": {
+      "model": "bonsai:block/bonsai_birch5"
+    },
+    "age=6": {
+      "model": "bonsai:block/bonsai_birch6"
+    },
+    "age=7": {
+      "model": "bonsai:block/bonsai_birch7"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  ],
+  "result": {
+    "item": "bonsai:dark_oak_bonsai_seeds"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bonsai:block/bonsai_acacia0"
+    },
+    "age=1": {
+      "model": "bonsai:block/bonsai_acacia1"
+    },
+    "age=2": {
+      "model": "bonsai:block/bonsai_acacia2"
+    },
+    "age=3": {
+      "model": "bonsai:block/bonsai_acacia3"
+    },
+    "age=4": {
+      "model": "bonsai:block/bonsai_acacia4"
+    },
+    "age=5": {
+      "model": "bonsai:block/bonsai_acacia5"
+    },
+    "age=6": {
+      "model": "bonsai:block/bonsai_acacia6"
+    },
+    "age=7": {
+      "model": "bonsai:block/bonsai_acacia7"
+    }
+  }
+}
