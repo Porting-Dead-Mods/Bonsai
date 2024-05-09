@@ -1,4 +1,4 @@
-package com.kitp13.bonsai.Block;
+package com.portingdeadmods.bonsai.Block;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;

@@ -1,7 +1,7 @@
-package com.kitp13.bonsai.datagen;
+package com.portingdeadmods.bonsai.datagen;
 
-import com.kitp13.bonsai.Bonsai;
-import com.kitp13.bonsai.datagen.lang.EN_US;
+import com.portingdeadmods.bonsai.Bonsai;
+import com.portingdeadmods.bonsai.datagen.lang.EN_US;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

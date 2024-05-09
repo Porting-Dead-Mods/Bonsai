@@ -1,8 +1,8 @@
-package com.kitp13.bonsai;
+package com.portingdeadmods.bonsai;
 
-import com.kitp13.bonsai.Block.Blocks;
-import com.kitp13.bonsai.Item.Items;
-import com.kitp13.bonsai.tab.BonsaiTab;
+import com.portingdeadmods.bonsai.Block.Blocks;
+import com.portingdeadmods.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.tab.BonsaiTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

@@ -1,6 +1,6 @@
-package com.kitp13.bonsai.datagen.lang;
+package com.portingdeadmods.bonsai.datagen.lang;
 
-import com.kitp13.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.data.LanguageProvider;

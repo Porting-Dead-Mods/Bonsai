@@ -1,9 +1,8 @@
-package com.kitp13.bonsai.datagen;
+package com.portingdeadmods.bonsai.datagen;
 
-import com.kitp13.bonsai.Block.Blocks;
-import com.kitp13.bonsai.Block.BonsaiCropBlock;
-import com.kitp13.bonsai.Block.OakBonsaiCropBlock;
-import com.kitp13.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.Block.Blocks;
+import com.portingdeadmods.bonsai.Block.BonsaiCropBlock;
+import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
@@ -12,7 +11,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraftforge.registries.RegistryObject;
-import org.checkerframework.checker.regex.qual.Regex;
 
 import java.util.Set;
 

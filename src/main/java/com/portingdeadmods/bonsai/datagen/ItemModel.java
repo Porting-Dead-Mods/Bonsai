@@ -1,7 +1,7 @@
-package com.kitp13.bonsai.datagen;
+package com.portingdeadmods.bonsai.datagen;
 
-import com.kitp13.bonsai.Bonsai;
-import com.kitp13.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.Bonsai;
+import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

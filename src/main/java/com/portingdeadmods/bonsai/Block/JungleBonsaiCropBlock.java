@@ -1,6 +1,6 @@
-package com.kitp13.bonsai.Block;
+package com.portingdeadmods.bonsai.Block;
 
-import com.kitp13.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.world.level.ItemLike;
 
 public class JungleBonsaiCropBlock extends BonsaiCropBlock{

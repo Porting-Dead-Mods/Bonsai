@@ -1,7 +1,7 @@
-package com.kitp13.bonsai.tab;
+package com.portingdeadmods.bonsai.tab;
 
-import com.kitp13.bonsai.Bonsai;
-import com.kitp13.bonsai.Item.Items;
+import com.portingdeadmods.bonsai.Bonsai;
+import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

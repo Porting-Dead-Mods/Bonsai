@@ -1,4 +1,4 @@
-package com.kitp13.bonsai.datagen;
+package com.portingdeadmods.bonsai.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;

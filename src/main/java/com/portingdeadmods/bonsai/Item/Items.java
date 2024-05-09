@@ -1,7 +1,7 @@
-package com.kitp13.bonsai.Item;
+package com.portingdeadmods.bonsai.Item;
 
-import com.kitp13.bonsai.Block.Blocks;
-import com.kitp13.bonsai.Bonsai;
+import com.portingdeadmods.bonsai.Block.Blocks;
+import com.portingdeadmods.bonsai.Bonsai;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.registries.DeferredRegister;

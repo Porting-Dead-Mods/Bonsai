@@ -1,6 +1,6 @@
-package com.kitp13.bonsai.Block;
+package com.portingdeadmods.bonsai.Block;
 
-import com.kitp13.bonsai.Bonsai;
+import com.portingdeadmods.bonsai.Bonsai;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
