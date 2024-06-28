@@ -1,15 +1,13 @@
 package com.portingdeadmods.bonsai.tab;
 
-import com.portingdeadmods.bonsai.Bonsai;
 import com.portingdeadmods.bonsai.Item.Items;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+
 
 public class BonsaiTab {
+    /*
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Bonsai.MODID);
     public static RegistryObject<CreativeModeTab> BONSAI_TAB = TABS.register("bonsai_tab", () ->
             CreativeModeTab.builder()
@@ -31,4 +29,17 @@ public class BonsaiTab {
 
                     }).build()
             );
+     */
+    public static final CreativeModeTab BONSAI_TAB = (new CreativeModeTab("bonsai")
+    {
+        @Override
+        public ItemStack makeIcon () {
+            return new ItemStack(Items.OAK_BONSAI_CLIPPINGS.get());
+        }
+
+        @Override
+        public Component getDisplayName() {
+            return Component.translatable("Bonsai Tree Crops");
+        }
+    });
 }
