@@ -3,8 +3,8 @@ package com.portingdeadmods.bonsai.datagen.lang;
 import com.portingdeadmods.bonsai.Item.Items;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.common.data.LanguageProvider;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.common.data.LanguageProvider;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 public class EN_US extends LanguageProvider {
     public EN_US(PackOutput output, String modid, String locale) {
@@ -15,8 +15,8 @@ public class EN_US extends LanguageProvider {
     protected void addTranslations() {
         add(Items.OAK_BONSAI_CLIPPINGS, "Oak Bonsai Clippings");
         add(Items.OAK_BONSAI_SEEDS, "Oak Bonsai Seeds");
-        add(Items.DARK_OAK_BONSAI_CLIPPINGS, "Dark Oak Bonsai Clippings");
-        add(Items.DARK_OAK_BONSAI_SEEDS, "Dark Oak Bonsai Seeds");
+        add(Items.DARKOAK_BONSAI_CLIPPINGS, "Dark Oak Bonsai Clippings");
+        add(Items.DARKOAK_BONSAI_SEEDS, "Dark Oak Bonsai Seeds");
         add(Items.BIRCH_BONSAI_CLIPPINGS, "Birch Bonsai Clippings");
         add(Items.BIRCH_BONSAI_SEEDS, "Birch Bonsai Seeds");
         add(Items.SPRUCE_BONSAI_CLIPPINGS, "Spruce Bonsai Clippings");
@@ -28,7 +28,7 @@ public class EN_US extends LanguageProvider {
         add("item_group_bonsai", "Bonsai");
 
     }
-    private void add(RegistryObject<Item> item, String translation){
+    private void add(DeferredItem<Item> item, String translation){
         add(item.get(), translation);
     }
 }

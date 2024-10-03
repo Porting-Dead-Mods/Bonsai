@@ -10,6 +10,6 @@ public class DarkOakBonsaiCropBlock extends BonsaiCropBlock{
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return Items.DARK_OAK_BONSAI_SEEDS.get();
+        return Items.DARKOAK_BONSAI_SEEDS.get();
     }
 }

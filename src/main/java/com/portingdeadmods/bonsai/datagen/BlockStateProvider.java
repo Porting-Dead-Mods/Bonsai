@@ -6,12 +6,12 @@ import com.portingdeadmods.bonsai.Bonsai;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.client.model.generators.ConfiguredModel;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import java.util.function.Function;
 
-public class BlockStateProvider extends net.minecraftforge.client.model.generators.BlockStateProvider {
+public class BlockStateProvider extends net.neoforged.neoforge.client.model.generators.BlockStateProvider {
     public BlockStateProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
         super(output, modid, exFileHelper);
     }
@@ -33,7 +33,7 @@ public class BlockStateProvider extends net.minecraftforge.client.model.generato
     private ConfiguredModel[] states(BonsaiCropBlock block, BlockState state, String modelName, String textureName) {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName+state.getValue(block.getAgeProperty()),
-                new ResourceLocation(Bonsai.MODID, "block/"+textureName+state.getValue(block.getAgeProperty()))).renderType("cutout"));
+                ResourceLocation.fromNamespaceAndPath(Bonsai.MODID, "block/"+textureName+state.getValue(block.getAgeProperty()))).renderType("cutout"));
         return models;
     }
 }

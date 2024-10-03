@@ -1,0 +1,7 @@
+// 1.21.1	2024-10-03T22:45:44.0634101	Loot Tables
+19cf6f07aac416bd60741b6970def4170574761e data/bonsai/loot_table/blocks/acacia_bonsai_crop_block.json
+1850cb040aa6f8c88546f0a6cc0f34349b344efb data/bonsai/loot_table/blocks/birch_bonsai_crop_block.json
+f7483e095db0f70af56cea55f5fe9b24c7e4c185 data/bonsai/loot_table/blocks/dark_oak_bonsai_crop_block.json
+8e091905d28f2c8a24e46ce0d9c213119a131cdd data/bonsai/loot_table/blocks/jungle_bonsai_crop_block.json
+6c108a5f360fc3dffed09673031b116453a46909 data/bonsai/loot_table/blocks/oak_bonsai_crop_block.json
+259603490ee11e25d5375dd967a028907a361fd7 data/bonsai/loot_table/blocks/spruce_bonsai_crop_block.json

@@ -6,12 +6,14 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
 
 public class BonsaiTab {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Bonsai.MODID);
-    public static RegistryObject<CreativeModeTab> BONSAI_TAB = TABS.register("bonsai_tab", () ->
+
+    public static Supplier<CreativeModeTab> BONSAI_TAB = TABS.register("bonsai_tab", () ->
             CreativeModeTab.builder()
                     .title(Component.translatable("item_group_"+Bonsai.MODID))
                     .icon(()->new ItemStack(Items.OAK_BONSAI_CLIPPINGS.get()))
@@ -20,8 +22,8 @@ public class BonsaiTab {
                         out.accept(Items.OAK_BONSAI_CLIPPINGS.get());
                         out.accept(Items.JUNGLE_BONSAI_SEEDS.get());
                         out.accept(Items.JUNGLE_BONSAI_CLIPPINGS.get());
-                        out.accept(Items.DARK_OAK_BONSAI_SEEDS.get());
-                        out.accept(Items.DARK_OAK_BONSAI_CLIPPINGS.get());
+                        out.accept(Items.DARKOAK_BONSAI_SEEDS.get());
+                        out.accept(Items.DARKOAK_BONSAI_CLIPPINGS.get());
                         out.accept(Items.ACACIA_BONSAI_SEEDS.get());
                         out.accept(Items.ACACIA_BONSAI_CLIPPINGS.get());
                         out.accept(Items.SPRUCE_BONSAI_SEEDS.get());
